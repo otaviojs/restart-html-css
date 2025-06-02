@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+ @font-face {
+        font-family: 'love' ;
+        src: url('love larry.ttf') format(truetype);
+       }
+
+  body{
+            font-family: 'helvetica';
+        }
+
+        h1{
+            font-family:'Love';
+            font-size: 3em;
+            font-weight: normal;
+        }      
