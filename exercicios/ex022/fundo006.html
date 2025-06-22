@@ -7,12 +7,21 @@
     <style>
         body{ 
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
+
+        /* Shorthand do background
+            color > image > position > repeat > [size] > attachment
+            o size segundo a aula não funciona apesar de já estar na documentação, então é só colocar ele separado
+        */
 
         main {
             background-color: white;
@@ -27,7 +36,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur facere nesciunt animi saepe maxime magni possimus quas aliquid error fugiat. Quasi accusamus magnam similique praesentium deserunt, quisquam quibusdam eum Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi adipisci nisi sapiente quod corrupti quibusdam perspiciatis laboriosam expedita iste, blanditiis doloremque libero, explicabo porro quasi. Quibusdam possimus eos autem pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero eveniet in eum ea fuga dolores eius quasi quo dolore deserunt vitae, soluta odio neque reiciendis, minima accusamus! Numquam, ex optio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur facere nesciunt animi saepe maxime magni possimus quas aliquid error fugiat. Quasi accusamus magnam similique praesentium deserunt, quisquam quibusdam eum Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi adipisci nisi sapiente quod corrupti quibusdam perspiciatis laboriosam expedita iste, blanditiis doloremque libero, explicabo porro quasi. Quibusdam possimus eos autem pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero eveniet in eum ea fuga dolores eius quasi quo dolore deserunt vitae, soluta odio neque reiciendis, minima accusamus! Numquam, ex optio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed animi eos libero necessitatibus quaerat quae, reprehenderit exercitationem delectus modi aliquid accusantium distinctio quo ipsum esse cupiditate, possimus expedita ut beatae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid fugit ullam ut fuga magni ad animi officiis possimus nulla, quam praesentium illo ea cupiditate et ex optio? Repellendus, pariatur at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti pariatur maxime amet magni, consequatur officiis magnam voluptatum obcaecati nihil quis atque consequuntur! Assumenda necessitatibus hic saepe tempore, quasi repudiandae dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error delectus minima quas labore quidem excepturi doloremque soluta, exercitationem quam quo alias explicabo quasi, libero, eum aut. Quae maiores ipsa quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, impedit delectus? Eveniet sint adipisci eum possimus nihil quaerat sequi, enim quam eligendi culpa atque asperiores, harum cumque similique exercitationem ullam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti fugit exercitationem suscipit iste dolore maxime aliquid cum fugiat labore alias, praesentium soluta autem, ab facilis ipsa eos sequi atque? Nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugiat vel sunt expedita culpa corporis in, maxime eum eligendi vitae magnam accusamus praesentium nostrum tempora tempore a non! Totam, eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eius dicta assumenda officiis perspiciatis quod consequuntur, architecto aspernatur quasi ipsum id iusto ea aliquid est sed, sequi eaque numquam. Odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nostrum, in reprehenderit corrupti dolor vel minus dignissimos quo labore eveniet, iure qui natus nam nisi itaque officiis laborum et fuga?</p>
     </main>
 </body>
 </html>
