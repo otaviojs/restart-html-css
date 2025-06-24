@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            height: 94.5vh;
+            background-color: purple;
+            background-size: 100% 100%;
+            background-image: url(imagens/target001.png);
+            position: relative;
+            padding: 10px;
+            
+        }
+
+        #conteudo {
+            background-color: yellow;
+            background-size: 100% 100%;
+            background-image: url(imagens/target001.png);
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+           
+            left: 50%;
+            top: 50%;
+            
+            transform: translate( -50%, -50%);
+        }
+
+        </style>
 </head>
-<body>
-    
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
 </body>
 </html>
