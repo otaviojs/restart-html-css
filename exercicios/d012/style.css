@@ -28,10 +28,10 @@ section.normal {
     background-color: white;
 }
 
-section.imagem1 {
+section.imagem1 { 
     padding: 40px;
     color: white;
-    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
 }
 
