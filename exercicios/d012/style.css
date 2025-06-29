@@ -13,10 +13,25 @@ html, body {
 }
 
 header{
-    font-family:'Passion One';
     text-align: center;
     color: white;
     background-color: black;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font: 200 normal 8vw 'Passion One';
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 section {
