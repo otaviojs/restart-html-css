@@ -20,13 +20,18 @@ header{
 
 header > h1 {
     padding-top: 50px;
-    font: 200 normal 8vw 'Passion One';
+    font: 600 normal 10vw 'Passion One';
     font-variant: small-caps;
+}
+
+header > p { 
+    padding-bottom: 50px;
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 
 a:hover {
@@ -35,7 +40,11 @@ a:hover {
 }
 
 section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     font: 400 normal 180% 'Sriracha';
+    line-height: 2em;
     
 }
 
@@ -54,4 +63,16 @@ section.imagem2 {
     color: white;
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover
+}
+
+section.imagem1 > p, section.imagem2 > p{
+    background-color: rgba(0, 0, 0, 0.49);
+    width:400px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
