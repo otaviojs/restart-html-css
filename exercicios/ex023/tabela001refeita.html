@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        tr.zebrado{
+            background-color: lightgray;
+        }
+        
+        tr#teste.zebrado{
+            font: normal bold 14px helvetica;
+        }
+
+        tr#teste{
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr id="teste"><!-- não utilize o mesmo id na página, é só um teste-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr id= "teste" class="zebrado">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="zebrado">
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="zebrado">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
